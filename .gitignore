@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secretos locales
+.env
+.env.*
+
+# ejemplos_output/ se versiona a propósito: son los PDFs de muestra
+# que sirven de fixture para test_actas.py y de referencia para el front.
